@@ -8,4 +8,15 @@ class Home extends BaseController
     {
         return view('startseite');
     }
+
+    public function spalten()
+    {
+        return view('spalten');
+    }
+
+    public function spalten_erstellen()
+    {
+        return view('spalten-erstellen');
+    }
 }
+

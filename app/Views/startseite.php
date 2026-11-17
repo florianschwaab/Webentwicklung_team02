@@ -10,6 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
     <!--Eigene CSS-Datei-->
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="d-flex flex-column min-vh-100">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
@@ -24,13 +26,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Tasks</a>
+                            <a class="nav-link active" href="<?= base_url('/') ?>">Tasks</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Boards</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Spalten</a>
+                            <a class="nav-link" href="<?= base_url('spalten') ?>">Spalten</a>
                         </li>
                     </ul>
               </div>
